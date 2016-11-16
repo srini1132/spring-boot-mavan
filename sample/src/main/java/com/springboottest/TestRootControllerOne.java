@@ -31,6 +31,7 @@ public class TestRootControllerOne {
 
 	@RequestMapping("/test")
 	public ArrayList<TestEntityOne> getTest(){
+		System.out.println(teoList);
 		return teoList;
 	}
 }
